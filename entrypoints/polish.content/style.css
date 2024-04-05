@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Beautify Confluence styles */
+#main {
+  padding-right: 10px !important;
+}
+#content {
+  padding: 0 !important;
+}
+.table-wrap .confluenceTable {
+  width: 100% !important;
+}
+#cp-container-1 {
+  width: 50vw;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+#com-atlassian-confluence {
+  overflow: auto !important;
+}
+
+/** 自建元素的样式 */
+div[data-wxt-integrated] {
+  position: fixed;
+  top: 0;
+  z-index: 999999999;
+}
+.faiz-confluence-polish-image-container {
+  position: relative;
+}
+.faiz-confluence-polish-image-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
